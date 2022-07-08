@@ -125,17 +125,12 @@ class LEDBoardViewController: UIViewController, UITextFieldDelegate {
         
         
         
-        view.endEditing(true)
-        // 키보드를 내리는 코드는 아니지만 편집상태가 끝났다는 제스쳐로 표현
+        view.endEditing(true) // 키보드를 내리는 코드는 아니지만 편집상태가 끝났다는 제스쳐로 표현
+        
         
        
     }
     
-    
-    @IBAction func exampleButton1(_ sender: UIButton) {
-        view.endEditing(true)
-        
-    }
     
     //연결관계를 다 끊어보고, Any로 연결해보기 : 이름 keyboardDismiss
     
